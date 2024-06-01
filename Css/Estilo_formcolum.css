@@ -1,0 +1,49 @@
+/*formulario a dos columnas*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contobjform{
+    width:90%;
+    height:auto;
+    margin: 4%;
+    background-color:#4446b3;
+    float: left;
+}
+
+.contobjform form{
+    width: 60%;
+    margin: auto;
+    padding: 1%;
+}
+
+.Filaf{
+max-width: 100%;
+margin-top: 1%;
+}
+
+.columnaf{
+ width: 50%;
+ float: left;
+ padding: 5%;
+}
+
+.columnaf input{
+    width: 100%;
+    padding: 2%;
+}
+
+.columnaf label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+
+.Filafb input{
+    background-color: #060244;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}

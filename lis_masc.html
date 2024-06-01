@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleados</title>
+    <link rel="stylesheet" href="Css/estilos_perfil.css">
+    <script src="https://kit.fontawesome.com/bf9ae79ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/estilos_listaObjetos.css">
+</head>
+<body>
+     <!-- Encabezado -->
+ <header class="encabezado_sesion">
+    <img src="imagenes/Imagen17.png" alt="logoANC">
+    <h1>Clínica Veterinaria Vet-Care</h1>
+    <h2>Animals-Care</h2>
+    <div class="clearfix"></div>
+    <nav>
+        <a href="lis_Clientes.html">
+            <i class="fa-solid fa-user"></i> Clientes</a>
+        <a href="lis_servicios.html">
+            <i class="fa-solid fa-server"></i> Servicios</a>
+        <a href="lis_masc.html">
+            <i class="fa-solid fa-dog"></i> Mascotas</a>
+        <a href="lis_empleados.html">
+            <i class="fa-solid fa-people-group"></i> Empleados</a>
+        <a href="Perfil_usuario.html">
+                <i class="fa-solid fa-calendar-days"></i>Agendar Cita</a>    
+        <a href="Historial.html">
+                <i class="fa-solid fa-file"></i>Historial Medico</a>
+        <a href="solicitud.html">
+                <i class="fa-solid fa-file"></i>Solicitar Historial</a>
+        <a href="buscar_cita.html">
+                <i class="fa-solid fa-file"></i>Buscar cita</a>
+        <a href="agregar_mascota.html">
+                <i class="fa-solid fa-file"></i>Agregar Mascotas</a>
+        <a href="index.html">
+            <i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
+    </nav> 
+</header>
+<!-- Tabla -->
+<div class="listobj">
+    <div class="Nuevo">
+        <h3>Mascotas</h3>
+        <a href="formmascotas.html">
+    <i class="fa-solid fa-plus-circle"></i>Nuevo
+        </a>
+    </div>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <th>ID </th>
+                <th>Nombre</th>
+                <th>Raza</th>
+                <th>Sexo</th>
+                <th>Vacunas aplicadas</th>
+                <th>Edad</th>
+                <th>Numero de cirujias realizadas</th>
+                <th>Nombre del dueño</th>
+                <th colspan="2">Operaciones</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Cloe</td>
+                <td>Chihuahua</td>
+                <td>Hembra</td>
+                <td>3</td>
+                <td>1 año 2meses</td>
+                <td>0</td>
+                <td>Itzel Lopez</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i> 
+                    </a></td>
+                <td>
+                    <a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i> 
+                    </a></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Max</td>
+                <td>Golden Retriber</td>
+                <td>Macho</td>
+                <td>6</td>
+                <td>3años</td>
+                <td>2</td>
+                <td>Juan Galvan</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i>
+                    </a></td>
+                <td><a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i> 
+                    </a></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Capuchino</td>
+                <td>Chihuahua</td>
+                <td>Macho</td>
+                <td>6</td>
+                <td>1año 3meses</td>
+                <td>0</td>
+                <td>Bartolo Vargas</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i> 
+                    </a></td>
+                <td><a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i> 
+                    </a></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Poli</td>
+                <td>Chihuahua</td>
+                <td>Hembra</td>
+                <td>6</td>
+                <td>2años</td>
+                <td>1</td>
+                <td>Jose Campos</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i> 
+                    </a></td>
+                <td><a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i> 
+                    </a></td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Niña</td>
+                <td>Gato de angora</td>
+                <td>Hembra</td>
+                <td>4</td>
+                <td>4años</td>
+                <td>1</td>
+                <td>Nicolle Espinosa</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i> 
+                    </a></td>
+                <td><a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i> 
+                    </a></td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Pulgas</td>
+                <td>Cruza</td>
+                <td>Macho</td>
+                <td>6</td>
+                <td>4años</td>
+                <td>0</td>
+                <td>Andrea Santiago</td>
+                <td><a href="eliminar_masc.html">
+                    <i class="fa-solid fa-trash-can"></i>
+                    </a></td>
+                <td><a href="formmascotas.html">
+                    <i class="fa-solid fa-user-pen"></i>
+                    </a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--Pie de pagina -->
+<footer class="footersesion">
+    <table>
+        <tr>
+            <td>
+                <i class="fa-solid fa-paw"></i> Clinica veterinaria Vet- Care <br>
+                <a href="https://maps.app.goo.gl/d14GZzhNJN4TarWX7"><i class="fa-solid fa-location-dot"></i> Ubicación</a><br>
+                <i class="fa-solid fa-phone"></i> Teléfono: 55 66 52 99 63 <br>
+                <a href="https://www.facebook.com/share/x2J69T1K1DYRMaFu/?mibextid=qi2Omg"><i class="fa-brands fa-square-facebook"></i> Vet-Care</a>
+            </td>
+            <td>
+                &#169; TheDoctors.Cats
+            </td>
+        </tr>
+      </table>
+  </footer>
+    
+</body>
+</html>
